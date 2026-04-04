@@ -2,8 +2,8 @@
 export default {
   content: [
     "./index.html",
-    "./*.{js,ts,jsx,tsx}",       // <-- This is the magic line we added for your root files
-    "./src/**/*.{js,ts,jsx,tsx}" // <-- Kept this just in case you use a src folder later
+    "./*.{js,ts,jsx,tsx}",        // <-- This line is missing in your file!
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
